@@ -9,7 +9,7 @@
 int main()
 {
 	allocate_map();
-	/*int j = allocate_pid();
-	printf("Allocated PID %d \n", j);
-	release_pid(j);*/
+	int j = allocate_pid();
+	fprintf(stdout, "Allocated PID: %d \n", j);
+	release_pid(j);
 }

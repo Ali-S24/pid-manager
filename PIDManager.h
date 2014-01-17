@@ -1,6 +1,4 @@
-#define MIN_PID = 300
-#define MAX_PID = 5000
-#define PID_RANGE = MAX_PID - MIN_PID
+int pid_map[4700];
 
 int allocate_map();
 
